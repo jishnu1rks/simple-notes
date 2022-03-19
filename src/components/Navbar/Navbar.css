@@ -1,0 +1,52 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav button svg {
+  font-size: 1.5rem;
+  padding-right: 1rem;
+}
+
+nav div h2 {
+  font-family: Manrope, sans-serif;
+  font-size: 2rem;
+}
+
+nav div svg {
+  font-size: 2rem;
+}
+
+.darkMode nav .logo svg path {
+  fill: white;
+}
+
+nav button {
+  padding: 15px 30px;
+  border: none;
+  background: #262626;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+}
+
+nav .light {
+  background: white;
+  color: #262626;
+}
+
+nav .light svg path {
+  fill: #262626;
+}
