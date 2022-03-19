@@ -1,3 +1,3 @@
 # simple-notes
 
-## simple note taking app 📘
+## simple note taking app �📖 🖋️
